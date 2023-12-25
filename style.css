@@ -394,7 +394,7 @@ a {
 .skill-container-right {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 40%;
   position: relative;
   gap: 2rem;
   justify-content: center;
