@@ -136,7 +136,7 @@ a {
 
 .hero-section-heading {
   font-size: 35px;
-  color: rgba(255, 255, 255, 0.734);
+  color:aqua;
   font-weight: 500;
 }
 
@@ -148,6 +148,7 @@ a {
 .hero-section-sub-heading {
   font-size: 45px;
   line-height: 45px;
+ color: white;
 }
 
 .hero-section-description {

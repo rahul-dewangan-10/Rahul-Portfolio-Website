@@ -21,3 +21,15 @@ document.addEventListener('DOMContentLoaded', function () {
           .catch(error => console.error('Error loading HTML:', error));
   }
 });
+
+///for smooth scroll behaviour on navigation through navigation bar
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
